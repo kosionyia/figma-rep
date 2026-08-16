@@ -49,12 +49,12 @@ const Navbar = () => {
 
         {/* Desktop auth buttons */}
         <div className="navbar-end gap-2">
-          <button className="btn shadow-none border border-white bg-white text-[#5B5B5B] rounded-full w-[110px] h-[40px] hidden md:flex">
+          <Link href="/login" className="btn shadow-none border border-white bg-white text-[#5B5B5B] rounded-full w-[110px] h-[40px] hidden md:flex">
             Login
-          </button>
-          <button className="btn shadow-none border border-white/30 bg-white/30 text-white rounded-full w-[110px] h-[40px] hidden md:flex">
+          </Link>
+          <Link href="/register" className="btn shadow-none border border-white/30 bg-white/30 text-white rounded-full w-[110px] h-[40px] hidden md:flex">
             Sign Up
-          </button>
+          </Link>
         </div>
 
         {/* Mobile dropdown */}
