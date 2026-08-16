@@ -23,7 +23,7 @@ const ResourcesSection = () => {
           <div className="flex flex-col">
             <Link href="/news/zoom-friendly-edtech" className="group block h-full">
               {/* Featured Image */}
-              <div className="relative w-full aspect-[16/10] sm:aspect-[4/3] rounded-[2rem] overflow-hidden mb-8 shadow-xl">
+              <div className="relative w-full aspect-16/10 sm:aspect-4/3 rounded-4xl overflow-hidden mb-8 shadow-xl">
                 <Image 
                   src="/images/laptop-zoom.png" 
                   alt="Person using a laptop with Zoom" 
@@ -60,7 +60,7 @@ const ResourcesSection = () => {
             
             {/* List Item 1 */}
             <Link href="/news/series-a-financing" className="flex flex-col sm:flex-row gap-6 md:gap-8 group">
-              <div className="relative w-full sm:w-56 shrink-0 aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
+              <div className="relative w-full sm:w-56 shrink-0 aspect-4/3 rounded-2xl overflow-hidden shadow-lg">
                 <Image 
                   src="/images/Girlie.png" 
                   alt="Child studying on tablet" 
@@ -83,7 +83,7 @@ const ResourcesSection = () => {
 
             {/* List Item 2 */}
             <Link href="/news/zoom-investors" className="flex flex-col sm:flex-row gap-6 md:gap-8 group">
-              <div className="relative w-full sm:w-56 shrink-0 aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
+              <div className="relative w-full sm:w-56 shrink-0 aspect-4/3 rounded-2xl overflow-hidden shadow-lg">
                 <Image 
                   src="/images/laptop-dark.png" 
                   alt="User on a zoom call" 
@@ -106,7 +106,7 @@ const ResourcesSection = () => {
 
             {/* List Item 3 */}
             <Link href="/news/former-blackboard-ceo" className="flex flex-col sm:flex-row gap-6 md:gap-8 group">
-              <div className="relative w-full sm:w-56 shrink-0 aspect-[4/3] rounded-2xl overflow-hidden shadow-lg">
+              <div className="relative w-full sm:w-56 shrink-0 aspect-4/3 rounded-2xl overflow-hidden shadow-lg">
                 <Image 
                   src="/images/cat.png" 
                   alt="Zoom meeting with a cat avatar" 
