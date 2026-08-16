@@ -62,7 +62,7 @@ const ResourcesSection = () => {
             <Link href="/news/series-a-financing" className="flex flex-col sm:flex-row gap-6 md:gap-8 group">
               <div className="relative w-full sm:w-56 shrink-0 aspect-4/3 rounded-2xl overflow-hidden shadow-lg">
                 <Image 
-                  src="/images/Girlie.png" 
+                  src="/images/girlie.jpg" 
                   alt="Child studying on tablet" 
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -108,7 +108,7 @@ const ResourcesSection = () => {
             <Link href="/news/former-blackboard-ceo" className="flex flex-col sm:flex-row gap-6 md:gap-8 group">
               <div className="relative w-full sm:w-56 shrink-0 aspect-4/3 rounded-2xl overflow-hidden shadow-lg">
                 <Image 
-                  src="/images/cat.png" 
+                  src="/images/cat.jpg" 
                   alt="Zoom meeting with a cat avatar" 
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"

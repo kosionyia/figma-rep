@@ -13,7 +13,7 @@ const Testimonial = () => {
         <div className="flex-1 z-10 w-full">
           {/* Section Subtitle */}
           <div className="flex items-center gap-4 text-[#8A8A8A] uppercase tracking-[0.2em] text-sm mb-6">
-            <div className="w-16 h-[1px] bg-[#8A8A8A]"></div>
+            <div className="w-16 h-px bg-[#8A8A8A]"></div>
             <span>Testimonial</span>
           </div>
 
@@ -36,7 +36,7 @@ const Testimonial = () => {
           </div>
 
           {/* CTA Button */}
-          <button className="group flex items-center justify-between border border-[#00C49F] rounded-full pl-6 pr-2 py-2 text-[#00C49F] hover:bg-[#00C49F] hover:text-white transition-all duration-300 w-auto min-w-[280px]">
+          <button className="group flex items-center justify-between border border-[#00C49F] rounded-full pl-6 pr-2 py-2 text-[#00C49F] hover:bg-[#00C49F] hover:text-white transition-all duration-300 w-auto min-w-70">
             <span className="text-lg font-medium">Write your assessment</span>
             <div className="border border-[#00C49F] rounded-full p-3 ml-4 group-hover:border-white transition-colors">
               <BsArrowRight className="text-xl" />
@@ -48,7 +48,7 @@ const Testimonial = () => {
         <div className="flex-1 relative w-full flex justify-center lg:justify-end mt-12 lg:mt-0 z-10">
           
           {/* Image Container */}
-          <div className="relative w-full max-w-[420px] aspect-4/5">
+          <div className="relative w-full max-w-105 aspect-4/5">
             <Image 
               src="/images/lady-book.png" 
               alt="Smiling woman holding folders" 
@@ -64,7 +64,7 @@ const Testimonial = () => {
           </div>
 
           {/* Floating Testimonial Card */}
-          <div className="absolute -bottom-16 lg:-bottom-12 lg:-right-32 bg-white rounded-2xl shadow-2xl w-[90%] sm:w-[500px] flex overflow-hidden z-30">
+          <div className="absolute -bottom-16 lg:-bottom-12 lg:-right-32 bg-white rounded-2xl shadow-2xl w-[90%] sm:w-125 flex overflow-hidden z-30">
             {/* Left Coral Accent Bar */}
             <div className="w-3 shrink-0 bg-[#F47E68]"></div>
             
