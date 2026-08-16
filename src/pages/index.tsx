@@ -5,6 +5,13 @@ import Success from "@/component/landing/success";
 import CloudSoftware from "@/component/landing/about_us/cloud_software";
 import WhatIsTOTC from "@/component/landing/about_us/totc";
 import WhatYouCanDo from "@/component/landing/about_us/can_do";
+import Features from "@/component/landing/fetures/features";
+import TeachersLearners from "@/component/landing/fetures/tools";
+import Assessments from "@/component/landing/fetures/tests";
+import ClassManagement from "@/component/landing/fetures/class-manage";
+import Discussion from "@/component/landing/fetures/one_discussion";
+import Testimonial from "@/component/landing/testimonials";
+import ResourcesSection from "@/component/landing/resources";
 
 
 const PoppinsFont = Poppins({
@@ -26,6 +33,13 @@ export default function Home() {
         <CloudSoftware/>
         <WhatIsTOTC/>
         <WhatYouCanDo/>
+        <Features/>
+        <TeachersLearners/>
+        <Assessments/>
+        <ClassManagement/>
+        <Discussion/>
+        <Testimonial/>
+        <ResourcesSection/>
       </main>
     </div>
   );
